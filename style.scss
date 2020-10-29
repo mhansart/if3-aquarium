@@ -1,0 +1,108 @@
+// @import "@fortawesome/fontawesome-free/css/all.css";
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+body{
+    background-image: url("static/deepsea.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    overflow: hidden;
+}
+.aquarium{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .fish1{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 100px;
+        right: 120px;
+        height: 30px;
+        width: 50px;
+
+    }
+    .fish2{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 500px;
+        left: 120px;
+        height: 40px;
+        width: 100px;
+
+    }
+    .fish3{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 500px;
+        left: 120px;
+        height: 50px;
+        width: 100px;
+
+    }
+    .algue1{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 50px;
+        left: 100px;
+        height: 50px;
+        width: 100px;
+    }
+    .algue2{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 100px;
+        left: 300px;
+        height: 70px;
+        width: 100px;
+    }
+    .hippo{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 100px;
+        left: 600px;
+        height: 170px;
+        width: 100px;
+        
+    }
+    .raie{
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: -50px;
+        right: 100px;
+        height: 500px;
+        width: 500px;
+    }
+}
+.bulle{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 90px;
+    left: 0;
+    font-size: 10px;
+}
+.bulle1{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 100px;
+    height: 7px;
+    width: 7px;
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+
+}
